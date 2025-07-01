@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::575108915081:user/RF_Engineer"
+                "AWS": "arn:aws:iam::<RF Eng Account ID>:user/RF_Engineer"
             },
             "Action": "sts:AssumeRole",
             "Condition": {
@@ -16,7 +16,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::575108915081:user/RF_Engineer"
+                "AWS": "arn:aws:iam::<Rf Eng Account ID>:user/RF_Engineer"
             },
             "Action": "sts:TagSession"
         }
